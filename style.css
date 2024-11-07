@@ -174,6 +174,32 @@ ul li a{
     height: 70vh;
     background: rgb(228, 228, 198);
     border-top: 1px solid rgb(252, 252, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.section4-container{
+    width: 40vw;
+    height: 50vh;
+    background-color: white;
+}
+.section4-content{
+    width: 45vw;
+}
+.section4-content h2{
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+.section4-content p{
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+#section-4-btn{
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 2px solid black;
+    color: black;
 }
 
 /*--------------------------------FOOTER--------------------------------------*/
