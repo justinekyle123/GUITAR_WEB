@@ -211,4 +211,44 @@ footer{
     width: 100vw;
     height: 50vh;
     background: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+.footer-social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-social-icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+    color: black;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.footer-social-icons a:hover{
+    color: white;
+    background-color: #333;
+}
+.footernav{
+    margin: 30px 0;
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+/*-------------------------------FOOTER BTN---------------------------------------------------*/
+.footerbtn{
+    width: 100vw;
+    height: 80px;
+    background-color: #111;
+}
+
