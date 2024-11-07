@@ -245,10 +245,23 @@ footer{
     padding: 0;
     margin: 0;
 }
+.footernav a{
+    color: white;
+    opacity: 0.7;
+}
+.footernav a:hover{
+    opacity: 1;
+    transition: .3s;
+    text-shadow: 0 0 2px white;
+}
 /*-------------------------------FOOTER BTN---------------------------------------------------*/
 .footerbtn{
     width: 100vw;
     height: 80px;
     background-color: #111;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
 }
 
