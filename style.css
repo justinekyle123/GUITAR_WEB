@@ -118,18 +118,27 @@ ul li a{
     font-size: 35px;
     margin-bottom: 2%;
 }
-
+.section-2-content p{
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+#section-2-btn{
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 2px solid black;
+    color: black;
+}
 /*-------------------------------------DISCORD------------------------------------*/
 .discord-section{
     width: 100vw;
     height: 20vh;
-    background: rgb(134, 2, 2);
+    background: white;
 }
 
 /*---------------------------------------SECTION 3 --------------------------------*/
 .section-3{
     width: 100vw;
-    height: 50vh;
+    height: 70vh;
     background: rgb(228, 228, 198);
 }
 /*------------------------------------------SECTION 4--------------------------------*/
