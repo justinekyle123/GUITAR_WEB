@@ -204,14 +204,37 @@ ul li a{
 }
 /*-----------------------------OUR TEAM--------------------------------------------*/
 .our-team{
-    width: 100vw;
+    width: 90vw;
     height: 80vh;
+    margin: auto;
 }
 .our-team h1{
     font-size: 40px;
     text-align: center;
     margin-bottom: 60px;
     margin-top: 3%;
+}
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+.team .team-member{
+    background-color: rgb(209, 185, 185);
+    margin: 5px;
+    width: 30vw;
+    height: 50vh;
+    padding: 20px;
+    line-height: 20px;
+    position: relative;
+}
+.team .team-member h3{
+    margin-top: 20%;
+}
+.team .team-member p.role{
+    color: #999;
+    margin: 10px 0;
 }
 /*--------------------------------FOOTER--------------------------------------*/
 footer{
