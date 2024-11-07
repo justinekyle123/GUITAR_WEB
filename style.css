@@ -77,15 +77,46 @@ ul li a{
 .get-started{
     width: 100vw;
     height: 40vh;
-    background:beige;
+    background:white;
     margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.get-started-content{
+    width: 80vw;
+    margin:auto ;
+    text-align: center;
+}
+.get-started-content h2{
+    font-size: 50px;
+    margin-bottom: 2%;
+}
+.get-started-content p{
+    font-size: 20px;
 }
 /*------------------------------------- SECTION 2 ----------------------------------------*/
 
 .section-2{
     width: 100vw;
+    height: 80vh;
+    background: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.section-2-container{
+    width: 40vw;
     height: 70vh;
-    background: rgb(228, 228, 198);
+    background: white;
+}
+
+.section-2-content{
+    width: 40vw;
+}
+.section-2-content h2{
+    font-size: 35px;
+    margin-bottom: 2%;
 }
 
 /*-------------------------------------DISCORD------------------------------------*/
@@ -94,6 +125,7 @@ ul li a{
     height: 20vh;
     background: rgb(134, 2, 2);
 }
+
 /*---------------------------------------SECTION 3 --------------------------------*/
 .section-3{
     width: 100vw;
