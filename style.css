@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    overflow-x: hidden;
+}
 nav{
     width: 100vw;
     height: 80px;
@@ -12,6 +15,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     gap: 7em;
+    border-bottom: 1px solid #b40606;
 }
 
 .logo{
@@ -27,7 +31,7 @@ ul li{
     list-style: none;
 }
 ul li a{
-    color: black;
+    color: #da0d0d;
     margin: 10px;
     font-size: 20px;
     text-decoration: none;
@@ -56,18 +60,25 @@ ul li a{
     font-size: 20px;
     margin-top: 3%;
     max-width: 30vw;
+    margin-bottom: 10%;
 }
 .hero-img-container{
     width: 40vw;
     height: 70vh;
     background: white;
 }
+#get-started-btn{
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 2px solid black;
+    color: black;
+}
 /*-------------------------------GET STARTED ------------------------------*/
 .get-started{
     width: 100vw;
     height: 40vh;
     background:beige;
-    margin-top: 2%;
+    margin-top: 5px;
 }
 /*------------------------------------- SECTION 2 ----------------------------------------*/
 
