@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -7,14 +8,59 @@ nav{
     height: 80px;
     background: white;
     box-shadow: 0 0 5px #46424252;
-    position: fixed;
-    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7em;
+}
+
+.logo{
+    font-size: 30px;
+    margin: 5%;
+}
+ul{
+    display: flex;
+    padding: 10px;
+    margin: 5%;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+#login{
+    color: white;
+    background: red;
+    padding: 8px 18px;
+    border-radius: 10px;
+    margin-left: 20px;
 }
 /*---------------------------------HERO------------------------------*/
 .hero{
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     background: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+}
+.hero-content h1{
+    font-size: 50px;
+}
+.hero-content p{
+    font-size: 20px;
+    margin-top: 3%;
+    max-width: 30vw;
+}
+.hero-img-container{
+    width: 40vw;
+    height: 70vh;
+    background: white;
 }
 /*-------------------------------GET STARTED ------------------------------*/
 .get-started{
@@ -49,4 +95,11 @@ nav{
     height: 70vh;
     background: rgb(228, 228, 198);
     border-top: 1px solid red;
+}
+
+/*--------------------------------FOOTER--------------------------------------*/
+footer{
+    width: 100vw;
+    height: 50vh;
+    background: #333;
 }
