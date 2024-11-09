@@ -1,4 +1,9 @@
 
+:root{
+    --h1-clr:rgb(145, 38, 38);
+    --background-clr:wheat;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -58,12 +63,13 @@ ul li a{
 .hero{
     width: 100vw;
     height: 90vh;
-    background: beige;
+    background:var(--background-clr);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 6em;
     margin-top: 80px;
+    color: var(--h1-clr);
 }
 .hero-content h1{
     font-size: 50px;
@@ -97,10 +103,11 @@ ul li a{
 .get-started{
     width: 100vw;
     height: 40vh;
-    background:white;
-    margin-top: 5px;
+    background:var(--background-clr);
     display: flex;
     align-items: center;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
 }
 .get-started-content{
     width: 80vw;
@@ -119,7 +126,7 @@ ul li a{
 .section-2{
     width: 100vw;
     height: 80vh;
-    background: beige;
+    background: var(--background-clr);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,7 +166,7 @@ ul li a{
 .section-3{
     width: 100vw;
     height: 70vh;
-    background: rgb(228, 228, 198);
+    background: var(--background-clr);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,7 +199,7 @@ ul li a{
 .section-4{
     width: 100vw;
     height: 70vh;
-    background: rgb(228, 228, 198);
+    background: var(--background-clr);
     border-top: 1px solid rgb(252, 252, 252);
     display: flex;
     justify-content: center;
@@ -324,3 +331,15 @@ footer{
     justify-content: center;
 }
 
+/*----------------------------------- KEY FRAMES ----------------------------------------------*/
+
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: translateY(800px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
