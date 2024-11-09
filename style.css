@@ -1,7 +1,8 @@
 
 :root{
-    --h1-clr:rgb(145, 38, 38);
+    --h1-clr:black;
     --background-clr:wheat;
+    --logo-clr:black;
 }
 
 *{
@@ -37,6 +38,8 @@ nav{
 .logo{
     font-size: 30px;
     margin: 5%;
+    font-weight: 900;
+    color: var(--logo-clr);
 }
 ul{
     display: flex;
@@ -51,6 +54,10 @@ ul li a{
     margin: 10px;
     font-size: 20px;
     text-decoration: none;
+    transition: .3s;
+}
+ul li a:hover{
+    color: red;
 }
 #login{
     color: white;
@@ -58,6 +65,11 @@ ul li a{
     padding: 8px 18px;
     border-radius: 10px;
     margin-left: 20px;
+    transition: .3s;
+}
+#login:hover{
+    color: white;
+    background: black;
 }
 /*---------------------------------HERO------------------------------*/
 .hero{
@@ -316,6 +328,7 @@ footer{
     opacity: 0.7;
 }
 .footernav a:hover{
+    color: white;
     opacity: 1;
     transition: .3s;
     text-shadow: 0 0 2px white;

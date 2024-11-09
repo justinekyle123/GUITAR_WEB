@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -21,12 +22,13 @@
 <!-----------------------------HERO------------------------------------------>
     <div class="hero">
         <div class="hero-content">
-            <h1>Learn to Play Guitar</h1>
+            <h1 data-aos="fade-right"   data-aos-duration="3000">Learn to Play Guitar</h1>
             <p>Whether you're a complete beginner or just brushing up, we've got simple tutorials to get you playing your favorite songs in no time!</p>
             <a href="#" id="get-started-btn">Get started</a>
         </div>
         <div class="hero-img-container">
-            <img src="home.jpg" alt="">
+            <img src="home.jpg" alt="" data-aos="fade-up"
+            data-aos-duration="3000">
         </div>
     </div>
 <!----------------------------------GET STARTED------------------------------------------->
@@ -85,7 +87,7 @@
                 <div class="team-img">
                     
                 </div>
-                <h3>Justine Kyle</h3>
+                <h3>Necesario</h3>
                 <p class="role">Dev</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, quod!</p>
             </div>
@@ -93,7 +95,7 @@
                 <div class="team-img">
                     
                 </div>
-                <h3>Hello kitty</h3>
+                <h3>Lavega</h3>
                 <p class="role">Dev</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, quod!</p>
             </div>
@@ -101,7 +103,7 @@
                 <div class="team-img">
                     
                 </div>
-                <h3>HI Gwapa</h3>
+                <h3>Mamac</h3>
                 <p class="role">Dev</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, quod!</p>
             </div>
@@ -109,7 +111,7 @@
                 <div class="team-img">
                     
                 </div>
-                <h3>Okay rako</h3>
+                <h3>Salabit</h3>
                 <p class="role">Dev</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, quod!</p>
             </div>
@@ -137,5 +139,10 @@
         <p>Copyright &copy;2024; Designed by<span>Unknown</span></p>
     </div>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+     AOS.init();
+   </script>
 </body>
+
 </html>
