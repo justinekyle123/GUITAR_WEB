@@ -4,9 +4,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     overflow-x: hidden;
 }
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 15%;
+}
+
 nav{
     width: 100vw;
     height: 80px;
@@ -17,6 +24,8 @@ nav{
     justify-content: space-between;
     gap: 7em;
     border-bottom: 1px solid #fcfcfc;
+    position: fixed;
+    top: 0;
 }
 
 .logo{
@@ -53,6 +62,7 @@ ul li a{
     justify-content: center;
     align-items: center;
     gap: 6em;
+    margin-top: 80px;
 }
 .hero-content h1{
     font-size: 50px;
