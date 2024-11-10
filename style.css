@@ -10,6 +10,8 @@
     --backg-width:75vw;
     --h1-size:80px;
     --p-size:18px;
+
+    --border-top:2px solid black;
 }
 
 *{
@@ -21,7 +23,7 @@
 
 body{
     overflow-x: hidden;
-    background-color:red;
+    background-color:var(--background-clr);
     letter-spacing: 1px;
     line-height: 1.4;
     color: #333;
@@ -131,7 +133,6 @@ ul li a:hover{
     display: flex;
     align-items: center;
     border-bottom: 1px solid white;
-    border-top: 1px solid white;
     padding: 10px;
 }
 .get-started-content{
@@ -159,6 +160,7 @@ ul li a:hover{
     align-items: center;
     gap: 2em;
     padding: 10px;
+    border-top: var(--border-top);
 }
 .section-2-container img{
     width: 40vw;
@@ -274,7 +276,8 @@ ul li a:hover{
     width: var(--backg-width);
     height: 100vh;
     margin: auto;
-    border-top: 1px solid white;
+    border-top: var(--border-top);
+
 }
 .our-team h1{
     font-size: 40px;
