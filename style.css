@@ -9,7 +9,7 @@
 /*--------------------------size var ------------------------*/
     --backg-width:75vw;
     --h1-size:80px;
-    --p-size:15px;
+    --p-size:18px;
 }
 
 *{
@@ -153,7 +153,7 @@ ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1em;
+    gap: 2em;
 }
 .section-2-container img{
     width: 40vw;
@@ -197,7 +197,7 @@ ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1em;
+    gap: 2em;
     border-top: 2px solid white;
 }
 .section3-content{
@@ -236,7 +236,7 @@ ul li a:hover{
     justify-content: center;
     align-items: center;
     margin: auto;
-    gap: 1em;
+    gap: 2em;
 }
 .section4-container{
     width: 40vw;
@@ -290,6 +290,7 @@ ul li a:hover{
     line-height: 20px;
     position: relative;
     border-radius: 5px;
+    box-shadow: 0 2px 5px black;
 }
 .team .team-member h3{
     margin-top: 20%;
@@ -302,7 +303,7 @@ ul li a:hover{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color:white;
+    background-color:wheat;
     position: absolute;
     top: -50px;
     left: 50%;
