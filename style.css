@@ -21,10 +21,13 @@
 
 body{
     overflow-x: hidden;
-    background-color: var(--background-clr);
+    background-color:red;
     letter-spacing: 1px;
     line-height: 1.4;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
 }
 
 html{
@@ -129,6 +132,7 @@ ul li a:hover{
     align-items: center;
     border-bottom: 1px solid white;
     border-top: 1px solid white;
+    padding: 10px;
 }
 .get-started-content{
     width: 80vw;
@@ -154,6 +158,7 @@ ul li a:hover{
     justify-content: center;
     align-items: center;
     gap: 2em;
+    padding: 10px;
 }
 .section-2-container img{
     width: 40vw;
@@ -199,6 +204,7 @@ ul li a:hover{
     align-items: center;
     gap: 2em;
     border-top: 2px solid white;
+    padding: 10px;
 }
 .section3-content{
     width: 45vw;
@@ -231,18 +237,20 @@ ul li a:hover{
     width: var(--backg-width);
     height: 70vh;
     background: var(--background-clr);
-    border-top: 1px solid rgb(252, 252, 252);
+    border-top: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     gap: 2em;
+    padding: 10px;
 }
-.section4-container{
+.section4-container video{
     width: 40vw;
     height: 50vh;
     background-color: white;
 }
+
 .section4-content{
     width: 45vw;
 }
@@ -322,6 +330,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 .footer-social-icons{
     display: flex;
@@ -371,6 +380,8 @@ footer{
     align-items: center;
     color: white;
     justify-content: center;
+    position: absolute;
+    bottom: 0;
 }
 
 /*----------------------------------- KEY FRAMES ----------------------------------------------*/
