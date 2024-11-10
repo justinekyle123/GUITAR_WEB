@@ -4,6 +4,8 @@
     --background-clr:white;
     --logo-clr:black;
     --p-clr:black;
+    --h3-clr:black;
+    --h2-clr:black;
 /*--------------------------size var ------------------------*/
     --backg-width:75vw;
     --h1-size:80px;
@@ -136,6 +138,7 @@ ul li a:hover{
 .get-started-content h2{
     font-size: 50px;
     margin-bottom: 2%;
+    color: var(--h2-clr);
 }
 .get-started-content p{
     font-size: 20px;
@@ -165,6 +168,7 @@ ul li a:hover{
 .section-2-content h2{
     font-size: 35px;
     margin-bottom: 2%;
+    color: var(--h2-clr);
 }
 .section-2-content p{
     font-size: var(--p-size);
@@ -172,7 +176,7 @@ ul li a:hover{
 }
 #section-2-btn{
     text-decoration: none;
-    padding: 5px 15px;
+    padding: 10px 15px;
     border: 2px solid black;
     color: black;
 }
@@ -202,6 +206,7 @@ ul li a:hover{
 .section3-content h2{
     font-size: 30px;
     margin-bottom: 2%;
+    color: var(--h3-clr);
 }
 .section3-content p{
     font-size: var(--p-size);
@@ -209,7 +214,7 @@ ul li a:hover{
 }
 #section-3-btn{
     text-decoration: none;
-    padding: 5px 15px;
+    padding: 10px 15px;
     border: 2px solid black;
     color: black;
 }
@@ -244,6 +249,7 @@ ul li a:hover{
 .section4-content h2{
     font-size: 30px;
     margin-bottom: 2%;
+    color: var(--h2-clr);
 }
 .section4-content p{
     font-size: 20px;
@@ -251,7 +257,7 @@ ul li a:hover{
 }
 #section-4-btn{
     text-decoration: none;
-    padding: 5px 15px;
+    padding: 10px 15px;
     border: 2px solid black;
     color: black;
 }
@@ -267,6 +273,7 @@ ul li a:hover{
     text-align: center;
     margin-bottom: 12%;
     margin-top: 3%;
+    color: var(--h1-clr);
 }
 .team{
     display: flex;
