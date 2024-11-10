@@ -91,7 +91,7 @@ ul li a:hover{
 /*---------------------------------HERO------------------------------*/
 .hero{
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     background-color:#fff4f0;
     filter: grayscale(0);
     display: flex;
@@ -186,6 +186,11 @@ ul li a:hover{
     padding: 10px 15px;
     border: 2px solid black;
     color: black;
+    transition: .3s;
+}
+#section-2-btn:hover{
+    color: white;
+    background: black;
 }
 /*-------------------------------------DISCORD------------------------------------*/
 /* .discord-section{
@@ -225,6 +230,11 @@ ul li a:hover{
     padding: 10px 15px;
     border: 2px solid black;
     color: black;
+    transition: .3s;
+}
+#section-3-btn:hover{
+    color: white;
+    background-color: black;
 }
 
 .section3-container img{
@@ -270,6 +280,11 @@ ul li a:hover{
     padding: 10px 15px;
     border: 2px solid black;
     color: black;
+    transition: .3s;
+}
+#section-4-btn:hover{
+    color: white;
+    background-color: black;
 }
 /*-----------------------------OUR TEAM--------------------------------------------*/
 .our-team{
