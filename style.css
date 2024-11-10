@@ -34,7 +34,7 @@ body{
 
 html{
     scroll-behavior: smooth;
-    scroll-padding: 15%;
+    scroll-padding: 12%;
 }
 
 nav{
@@ -247,7 +247,7 @@ ul li a:hover{
 /*------------------------------------------SECTION 4--------------------------------*/
 .section-4{
     width: var(--backg-width);
-    height: 70vh;
+    height: 90vh;
     background: var(--background-clr);
     border-top: 2px solid black;
     display: flex;
@@ -342,7 +342,7 @@ ul li a:hover{
 /*----------------------------------CONTACT US ----------------------------------------*/
 .contact{
     width: var(--backg-width);
-    height:80vh;
+    height:100vh;
     margin: auto;
     background:transparent;
     display: flex;
@@ -350,6 +350,7 @@ ul li a:hover{
     justify-content: center;
     border: 5px solid #333;
     border-radius: 5px;
+    margin-bottom: 20%;
 }
 form{
     display: flex;
@@ -363,6 +364,11 @@ form{
     height: 50px;
     padding: 10px;
     font-size: 18px;
+    border: 3px solid blue;
+    border-radius: 8px;
+}
+.inputs:focus{
+    border: 3px solid black;
 }
 .login-btn{
     width: 100%;
