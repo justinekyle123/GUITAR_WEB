@@ -3,6 +3,7 @@
     --h1-clr:black;
     --background-clr:wheat;
     --logo-clr:black;
+    --backg-width:90vw;
 }
 
 *{
@@ -13,6 +14,7 @@
 
 body{
     overflow-x: hidden;
+    background-color: wheat;
 }
 
 html{
@@ -73,14 +75,15 @@ ul li a:hover{
 }
 /*---------------------------------HERO------------------------------*/
 .hero{
-    width: 100vw;
-    height: 90vh;
+    width: var(--backg-width);
+    height: 100vh;
     background:var(--background-clr);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 6em;
     margin-top: 80px;
+    margin: auto;
     color: var(--h1-clr);
 }
 .hero-content h1{
@@ -113,7 +116,8 @@ ul li a:hover{
 }
 /*-------------------------------GET STARTED ------------------------------*/
 .get-started{
-    width: 100vw;
+    width: var(--backg-width);
+    margin: auto;
     height: 40vh;
     background:var(--background-clr);
     display: flex;
@@ -136,7 +140,8 @@ ul li a:hover{
 /*------------------------------------- SECTION 2 ----------------------------------------*/
 
 .section-2{
-    width: 100vw;
+    width: var(--backg-width);
+    margin: auto;
     height: 80vh;
     background: var(--background-clr);
     display: flex;
@@ -172,11 +177,13 @@ ul li a:hover{
     width: 100vw;
     height: 20vh;
     background: white;
+    margin: auto;
 }
 
 /*---------------------------------------SECTION 3 --------------------------------*/
 .section-3{
-    width: 100vw;
+    width: var(--backg-width);
+    margin: auto;
     height: 70vh;
     background: var(--background-clr);
     display: flex;
@@ -209,13 +216,14 @@ ul li a:hover{
 }
 /*------------------------------------------SECTION 4--------------------------------*/
 .section-4{
-    width: 100vw;
+    width: var(--backg-width);
     height: 70vh;
     background: var(--background-clr);
     border-top: 1px solid rgb(252, 252, 252);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
     gap: 1em;
 }
 .section4-container{
@@ -242,7 +250,7 @@ ul li a:hover{
 }
 /*-----------------------------OUR TEAM--------------------------------------------*/
 .our-team{
-    width: 90vw;
+    width: var(--backg-width);
     height: 80vh;
     margin: auto;
 }
