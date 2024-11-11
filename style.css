@@ -6,19 +6,22 @@
     --p-clr:black;
     --h3-clr:black;
     --h2-clr:black;
+    --section-backg:#ffffffff;
 /*--------------------------size var ------------------------*/
-    --backg-width:75vw;
+    --backg-width:70vw;
     --h1-size:80px;
-    --p-size:18px;
-
+    --p-size:20px;
+    --h2-size:30px;
+    --h3-size:30px;
     --border-top:2px solid black;
+    --img-wdth:30vw;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
 body{
@@ -30,6 +33,9 @@ body{
     display: flex;
     flex-direction: column;
     gap: 2em;
+}
+p{
+    font-weight: 300;
 }
 
 html{
@@ -79,7 +85,7 @@ ul li a:hover{
 #login{
     color: white;
     background: red;
-    padding: 8px 18px;
+    padding: 12px 18px;
     border-radius: 10px;
     margin-left: 20px;
     transition: .3s;
@@ -114,7 +120,7 @@ ul li a:hover{
 
 #get-started-btn{
     text-decoration: none;
-    padding: 10px 25px;
+    padding: 12px 25px;
     border: 2px solid black;
     color: black;
     transition: .3s;
@@ -154,26 +160,28 @@ ul li a:hover{
     width: var(--backg-width);
     margin: auto;
     height: 80vh;
-    background: var(--background-clr);
+    background: var(--section-backg);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2em;
-    padding: 10px;
-    border-top: var(--border-top);
+    border-radius: 20px;
+    padding: 10px 42px;
+    box-shadow: 0 0 2px black;
 }
 .section-2-container img{
-    width: 40vw;
+    width: var(--img-wdth);
     aspect-ratio: 16/10;
     background: white;
     filter: grayscale(50%);
+    border-radius: 10px
 }
 
 .section-2-content{
     width: 40vw;
 }
 .section-2-content h2{
-    font-size: 35px;
+    font-size: var(--h2-size);
     margin-bottom: 2%;
     color: var(--h2-clr);
 }
@@ -204,14 +212,15 @@ ul li a:hover{
 .section-3{
     width: var(--backg-width);
     margin: auto;
-    height: 70vh;
-    background: var(--background-clr);
+    height: 80vh;
+    background: var(--section-backg);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2em;
-    border-top: 2px solid white;
-    padding: 10px;
+    border-radius: 20px;
+    padding: 10px 42px;
+    box-shadow: 0 0 2px black;
 }
 .section3-content{
     width: 45vw;
@@ -238,8 +247,8 @@ ul li a:hover{
 }
 
 .section3-container img{
-    width: 40vw;
-    aspect-ratio: 16/10;
+    width: var(--img-wdth);
+    height: 50vh;
     background-color: white;
     filter: grayscale(50%);
     border-radius: 5px;
@@ -247,19 +256,20 @@ ul li a:hover{
 /*------------------------------------------SECTION 4--------------------------------*/
 .section-4{
     width: var(--backg-width);
-    height: 90vh;
-    background: var(--background-clr);
-    border-top: 2px solid black;
+    height: 80vh;
+    background: var(--section-backg);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     gap: 2em;
-    padding: 10px;
+     border-radius: 20px;
+    padding: 10px 42px;
+    box-shadow: 0 0 2px black;
 }
 .section4-container video{
-    width: 40vw;
-    height: 50vh;
+    width:var(--img-wdth);
+    aspect-ratio:16/11;
     background-color: white;
 }
 
@@ -342,39 +352,58 @@ ul li a:hover{
 /*----------------------------------CONTACT US ----------------------------------------*/
 .contact{
     width: var(--backg-width);
-    height:100vh;
+    height:80vh;
     margin: auto;
-    background:transparent;
+    background:var(--section-backg);
     display: flex;
     align-items: center;
     justify-content: center;
     border: 5px solid #333;
     border-radius: 5px;
     margin-bottom: 20%;
+    gap:3em;
+}
+.contact-us-text textarea{
+    width: 30vw;
+    height: 30vh;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
 }
 form{
     display: flex;
-    width: 20vw;
+    width: 22vw;
+    height: 50vh;
     flex-direction: column;
     padding: 10px;
     gap: 1em;
+    background-color:white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    align-items: center;
+    border: 1px solid black;
 }
 .inputs{
     width: 100%;
     height: 50px;
     padding: 10px;
     font-size: 18px;
-    border: 3px solid blue;
+    border: 1px solid black;
     border-radius: 8px;
 }
 .inputs:focus{
     border: 3px solid black;
 }
 .login-btn{
-    width: 100%;
+    width: 50%;
     padding: 10px;
     font-size: 20px;
     cursor: pointer;
+    background-color: orangered;
+    border: 1px solid black;
+    color: white;
+    border-radius: 5px;
 }
 /*--------------------------------FOOTER--------------------------------------*/
 footer{
