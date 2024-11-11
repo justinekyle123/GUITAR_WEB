@@ -1,12 +1,14 @@
 
 :root{
     --h1-clr:black;
-    --background-clr:white;
-    --logo-clr:black;
+    --background-clr:#white;
+    --logo-clr:white;
     --p-clr:black;
     --h3-clr:black;
     --h2-clr:black;
-    --section-backg:#ffffffff;
+    --section-backg:#fff;
+    --nav-background:black;
+    --a-color:white;
 /*--------------------------size var ------------------------*/
     --backg-width:70vw;
     --h1-size:80px;
@@ -46,7 +48,7 @@ html{
 nav{
     width: 100vw;
     height: 80px;
-    background: white;
+    background: var(--nav-background);
     box-shadow: 0 0 5px #46424252;
     display: flex;
     align-items: center;
@@ -73,7 +75,7 @@ ul li{
     list-style: none;
 }
 ul li a{
-    color: black;
+    color: var(--a-color);
     margin: 10px;
     font-size: 20px;
     text-decoration: none;
@@ -91,8 +93,8 @@ ul li a:hover{
     transition: .3s;
 }
 #login:hover{
-    color: white;
-    background: black;
+    color: black;
+    background: white;
 }
 /*---------------------------------HERO------------------------------*/
 .hero{
@@ -140,6 +142,7 @@ ul li a:hover{
     align-items: center;
     border-bottom: 1px solid white;
     padding: 10px;
+
 }
 .get-started-content{
     width: 80vw;
@@ -160,7 +163,7 @@ ul li a:hover{
     width: var(--backg-width);
     margin: auto;
     height: 80vh;
-    background: var(--section-backg);
+    background-image: var(--section-backg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,6 +171,8 @@ ul li a:hover{
     border-radius: 20px;
     padding: 10px 42px;
     box-shadow: 0 0 2px black;
+    border: 5px solid black;
+    position: relative;
 }
 .section-2-container img{
     width: var(--img-wdth);
@@ -200,6 +205,7 @@ ul li a:hover{
     color: white;
     background: black;
 }
+
 /*-------------------------------------DISCORD------------------------------------*/
 /* .discord-section{
     width: 100vw;
@@ -221,6 +227,8 @@ ul li a:hover{
     border-radius: 20px;
     padding: 10px 42px;
     box-shadow: 0 0 2px black;
+    border: 5px solid black;
+
 }
 .section3-content{
     width: 45vw;
@@ -252,6 +260,7 @@ ul li a:hover{
     background-color: white;
     filter: grayscale(50%);
     border-radius: 5px;
+    object-fit: cover;
 }
 /*------------------------------------------SECTION 4--------------------------------*/
 .section-4{
@@ -266,6 +275,8 @@ ul li a:hover{
      border-radius: 20px;
     padding: 10px 42px;
     box-shadow: 0 0 2px black;
+    border: 5px solid black;
+
 }
 .section4-container video{
     width:var(--img-wdth);
