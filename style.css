@@ -380,7 +380,7 @@ ul li a:hover{
     width: var(--backg-width);
     height:80vh;
     margin: auto;
-    background:var(--section-backg);
+    background:#fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -388,7 +388,7 @@ ul li a:hover{
     border-radius: 5px;
     margin-bottom: 20%;
     gap:3em;
-    color: #fff;
+    color: var(--h2-clr);
 }
 .contact-us-text textarea{
     width: 30vw;
@@ -413,6 +413,7 @@ form{
 }
 form a{
     text-decoration: none;
+    color: blue;
 }
 .inputs{
     width: 100%;
