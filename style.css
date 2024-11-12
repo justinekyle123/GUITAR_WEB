@@ -155,7 +155,9 @@ ul li a:hover{
 #get-started-btn{
     text-decoration: none;
     padding: 12px 25px;
-    border: 2px solid black;
+    border: 1px solid black;
+    box-shadow:  0 0 3px black;
+    background-color: #F4ABAA;
     color: black;
     transition: .3s;
     font-size: 20px;
@@ -363,6 +365,7 @@ ul li a:hover{
     margin-bottom: 12%;
     margin-top: 3%;
     color: var(--h1-clr);
+    font-family: cursive;
 }
 .team{
     display: flex;
