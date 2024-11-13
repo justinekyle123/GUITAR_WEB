@@ -409,7 +409,6 @@ ul li a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20%;
     gap:5em;
     color: white;
 }
@@ -448,6 +447,7 @@ ul li a:hover{
     color: #fff;
     min-height: 200px;
     max-height: 400px;
+    resize: vertical;
     border: none;
     border-radius: 5px;
     background: black;
@@ -455,6 +455,14 @@ ul li a:hover{
 .contact-form form .submit{
     width: 100px;
     height: 40px;
+    background-color: #d3254a;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 0 3px black;
 }
 /*--------------------------------FOOTER--------------------------------------*/
 footer{
