@@ -1,7 +1,7 @@
 
 :root{
     --h1-clr:#fff;
-    --background-clr:#F4ABAA;
+    --background-clr:#fff;
     --logo-clr:#000;
     --p-clr:black;
     --h3-clr:black;
@@ -10,13 +10,16 @@
     --nav-background:white;
     --a-color:#000;
 /*--------------------------size var ------------------------*/
-    --backg-width:70vw;
+    --backg-width:80vw;
     --h1-size:50px;
     --p-size:20px;
     --h2-size:20px;
     --h3-size:16px;
     --border-top:2px solid ;
-    --img-wdth:30vw;
+    --img-wdth:40vw;
+    --img-height:60vh;
+    --logo-size:24px;
+    --a-size:20px;
 }
 
 *{
@@ -61,7 +64,7 @@ nav{
 }
 
 .logo{
-    font-size: 30px;
+    font-size: var(--logo-size);
     margin: 5%;
     font-weight: 900;
     color: var(--logo-clr);
@@ -136,8 +139,8 @@ ul li a:hover{
     box-shadow: 0 3px 10px black inset;
 }
 .img-container {
-    width:320px;
-    height: 500px;
+    width:300px;
+    height: 350px;
     background-color: white; 
     position: absolute;
     top: 30%;
@@ -201,18 +204,15 @@ ul li a:hover{
     justify-content: center;
     align-items: center;
     gap: 2em;
-    border-radius: 20px;
     padding: 10px 42px;
-    box-shadow: 0 0 2px black;
-    border: 5px solid black;
     position: relative;
 }
 .section-2-container img{
     width: var(--img-wdth);
-    aspect-ratio: 16/10;
+    height: var(--img-height);
     background: white;
     filter: grayscale(50%);
-    border-radius: 10px
+    border-radius: 2px
 }
 
 .section-2-content{
