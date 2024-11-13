@@ -41,7 +41,6 @@ body{
     color: #333;
     display: flex;
     flex-direction: column;
-    gap: 2em;
 }
 p{
     font-weight: 300;
@@ -405,12 +404,19 @@ ul li a:hover{
     width: 100vw;
     height:100vh;
     margin: auto;
-    background:var(--btn-clr1);
     display: flex;
     align-items: center;
     justify-content: center;
     gap:5em;
     color: white;
+    position: relative;
+}
+.contact-section img{
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: grayscale(100%);
 }
 .contact-info{
     color: white;
