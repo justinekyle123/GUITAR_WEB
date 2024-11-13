@@ -346,8 +346,9 @@ ul li a:hover{
     width:100vw;
     height: 100vh;
     margin: auto;
-    background-color: #bcd1e4;
+    background-color: #cfe2f3;
     padding: 0 50px;
+    margin-bottom: 2%;
 }
 .our-team h1{
     font-size: 40px;
@@ -475,7 +476,7 @@ ul li a:hover{
 footer{
     width: 100vw;
     height: 50vh;
-    background: #333;
+    background: #8baac5;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -500,7 +501,7 @@ footer{
 
 .footer-social-icons a:hover{
     color: white;
-    background-color: #333;
+    background-color: #8baac5;
 }
 .footernav{
     margin: 30px 0;
@@ -525,7 +526,7 @@ footer{
 .footerbtn{
     width: 100vw;
     height: 80px;
-    background-color: #111;
+    background-color: #465e74;
     display: flex;
     align-items: center;
     color: white;
