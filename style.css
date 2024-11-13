@@ -1,6 +1,6 @@
 
 :root{
-    --h1-clr:#fff;
+    --h1-clr:#000;
     --background-clr:#f8f9fa;
     --logo-clr:#000;
     --p-clr:#333;
@@ -106,8 +106,6 @@ ul li a:hover{
 .hero{
     width: 100vw;
     height: 100%;
-    background-color:#A26360;
-    filter: grayscale(0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,23 +115,37 @@ ul li a:hover{
     position: relative;
     gap: 1em;
 }
+
 .hero-content{
     display: flex;
     flex-direction: column;
     gap: 1em;
-    text-align: left;
+    text-align: center;
     max-width: 40vw;
+    margin-left: 7%;
+}
+.hero-content h1{
+    font-size: var(--h1-size);
 }
 
-
-
-
+span{
+    color: orangered;
+}
 .hero-img{
-    background-color: red;
-    width: 50%;
+    background-color: rgb(95, 61, 61);
+    width: 45%;
     height: 100vh;
-    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 900px;
+    border-bottom-left-radius: 50%;
+    position: absolute;
+    right: 0;
+    z-index: -1;
 }
+
+
 /*-------------------------------GET STARTED ------------------------------*/
 .get-started{
     width: 100vw;
