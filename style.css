@@ -10,15 +10,15 @@
     --nav-background:white;
     --a-color:#000;
     --btn-clr1:#0866ff;
-    --btn-clr2:#42b72a;
+    --btn-clr2:#0866ff;
 
     --hover-clr1:white;
 /*--------------------------COLORS ------------------------*/
     --backg-width:80vw;
     --h1-size:50px;
-    --p-size:20px;
+    --p-size:18px;
     --h2-size:20px;
-    --h3-size:16px;
+    --h3-size:18px;
     --border-top:2px solid ;
     --img-wdth:40vw;
     --img-height:60vh;
@@ -231,7 +231,7 @@ ul li a:hover{
 }
 .section-2-content p{
     font-size: var(--p-size);
-    margin-bottom: 6%;
+    margin-bottom: 10%;
 }
 #section-2-btn{
     text-decoration: none;
@@ -264,11 +264,7 @@ ul li a:hover{
     justify-content: center;
     align-items: center;
     gap: 2em;
-    border-radius: 20px;
     padding: 10px 42px;
-    box-shadow: 0 0 2px black;
-    border: 5px solid black;
-
 }
 .section3-content{
     width: 45vw;
@@ -286,7 +282,7 @@ ul li a:hover{
     text-decoration: none;
     padding: 10px 15px;
     color: white;
-    background-color: red;
+    background-color:var(--btn-clr1);
     border-radius: 5px;
     transition: .3s;
     border: 2px solid black;
@@ -300,10 +296,10 @@ ul li a:hover{
 
 .section3-container img{
     width: var(--img-wdth);
-    height: 50vh;
+    height: 70vh;
     background-color: white;
     filter: grayscale(50%);
-    border-radius: 5px;
+    border-radius: 2px;
     object-fit: cover;
 }
 /*------------------------------------------SECTION 4--------------------------------*/
