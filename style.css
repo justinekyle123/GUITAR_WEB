@@ -179,6 +179,7 @@ ul li a:hover{
     height: 40vh;
     background:white;
     display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 10px;
 
@@ -186,15 +187,22 @@ ul li a:hover{
 .get-started-content{
     width: 80vw;
     margin:auto ;
-    text-align: center;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
 }
-.get-started-content h2{
-    font-size: 50px;
+.get-started h2{
+    font-size: 30px;
     margin-bottom: 2%;
-    color: var(--h2-clr);
+    color: #4980b1;
 }
 .get-started-content p{
-    font-size: 20px;
+    font-size: 16px;
+    color: #444;
+    max-width: 40%;
+    border-left: 2px solid rgb(111, 162, 204);
+    padding: 0 15px;
 }
 /*------------------------------------- SECTION 2 ----------------------------------------*/
 
