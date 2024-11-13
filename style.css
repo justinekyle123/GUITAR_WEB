@@ -410,9 +410,28 @@ ul li a:hover{
     align-items: center;
     justify-content: center;
     margin-bottom: 20%;
-    gap:3em;
+    gap:5em;
 }
-
+.contact-info{
+    color: white;
+    line-height: 50px;
+    font-size: 18px;
+    max-width: 500px;
+}
+.contact-info i {
+    margin-right: 5% ;
+    font-size: 20px;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.contact-form form .input-type{
+    height: 50px;
+    padding: 10px ;
+    font-size: 18px;
+}
 /*--------------------------------FOOTER--------------------------------------*/
 footer{
     width: 100vw;
