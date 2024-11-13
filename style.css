@@ -287,10 +287,7 @@ ul li a:hover{
     border: 2px solid black;
 }
 #section-3-btn:hover{
-    color: black;
-    background: white;
-    box-shadow: 0 0 5px white;
-     border: 2px solid white;
+    color: white;
 }
 
 .section3-container img{
@@ -313,9 +310,6 @@ ul li a:hover{
     gap: 2em;
      border-radius: 20px;
     padding: 10px 42px;
-    box-shadow: 0 0 2px black;
-    border: 5px solid black;
-
 }
 .section4-container video{
     width:var(--img-wdth);
@@ -327,32 +321,30 @@ ul li a:hover{
     width: 45vw;
 }
 .section4-content h2{
-    font-size: 30px;
-    margin-bottom: 2%;
+    font-size: var(--h2-size);
+    margin-bottom: 3%;
     color: var(--h2-clr);
 }
 .section4-content p{
-    font-size: 20px;
-    margin-bottom: 5%;
+    color: var(--p-clr);
+    font-size: var(--p-size);
+    margin-bottom: 10%;
 }
 #section-4-btn{
     text-decoration: none;
     padding: 10px 15px;
     border: 2px solid black;
     color: white;
-    background-color: red;
+    background-color: var(--btn-clr1);
     transition: .3s;
     border-radius: 5px;
 }
 #section-4-btn:hover{
-    color: black;
-    background: white;
-    box-shadow: 0 0 5px white;
-    border: 2px solid white;
+    color: white;
 }
 /*-----------------------------OUR TEAM--------------------------------------------*/
 .our-team{
-    width:95vw;
+    width:90vw;
     height: 100vh;
     margin: auto;
     border-top: var(--border-top);
@@ -409,66 +401,18 @@ ul li a:hover{
     border-radius: 50%;
 }
 /*----------------------------------CONTACT US ----------------------------------------*/
-.contact{
-    width: var(--backg-width);
-    height:80vh;
+.contact-section{
+    width: 100vw;
+    height:100vh;
     margin: auto;
-    background:#fff;
+    background:var(--btn-clr1);
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 5px solid #333;
-    border-radius: 5px;
     margin-bottom: 20%;
     gap:3em;
-    color: var(--h2-clr);
 }
-.contact-us-text textarea{
-    width: 30vw;
-    height: 30vh;
-    padding: 10px;
-    font-size: 16px;
-    margin: 10px 0;
-}
-form{
-    display: flex;
-    width: 22vw;
-    height: 50vh;
-    flex-direction: column;
-    padding: 10px;
-    gap: 1em;
-    background-color:white;
-    justify-content: center;
-    text-align: center;
-    border-radius: 10px;
-    align-items: center;
-    border: 1px solid black;
-}
-form a{
-    text-decoration: none;
-    color: blue;
-}
-.inputs{
-    width: 100%;
-    height: 50px;
-    padding: 10px;
-    font-size: 18px;
-    border: 1px solid black;
-    border-radius: 8px;
-}
-.inputs:focus{
-    border: 3px solid black;
-}
-.login-btn{
-    width: 50%;
-    padding: 10px;
-    font-size: 20px;
-    cursor: pointer;
-    background-color: red;
-    border: 1px solid orangered;
-    color: white;
-    border-radius: 5px;
-}
+
 /*--------------------------------FOOTER--------------------------------------*/
 footer{
     width: 100vw;
