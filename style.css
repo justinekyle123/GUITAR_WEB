@@ -1,12 +1,12 @@
 
 :root{
     --h1-clr:#fff;
-    --background-clr:#fff;
+    --background-clr:#f8f9fa;
     --logo-clr:#000;
     --p-clr:#333;
     --h3-clr:black;
     --h2-clr:#003DA5;
-    --section-backg: white;
+    --section-backg: #f8f9fa;
     --nav-background:white;
     --a-color:#000;
     --btn-clr1:#0866ff;
@@ -174,10 +174,10 @@ ul li a:hover{
 }
 /*-------------------------------GET STARTED ------------------------------*/
 .get-started{
-    width: var(--backg-width);
+    width: 100vw;
     margin: auto;
     height: 40vh;
-    background:var(--background-clr);
+    background:white;
     display: flex;
     align-items: center;
     padding: 10px;
@@ -343,10 +343,11 @@ ul li a:hover{
 }
 /*-----------------------------OUR TEAM--------------------------------------------*/
 .our-team{
-    width:90vw;
+    width:100vw;
     height: 100vh;
     margin: auto;
-    border-top: var(--border-top);
+    background-color: #bcd1e4;
+    padding: 0 50px;
 }
 .our-team h1{
     font-size: 40px;
