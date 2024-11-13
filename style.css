@@ -5,11 +5,15 @@
     --logo-clr:#000;
     --p-clr:black;
     --h3-clr:black;
-    --h2-clr:black;
+    --h2-clr:#003DA5;
     --section-backg: white;
     --nav-background:white;
     --a-color:#000;
-/*--------------------------size var ------------------------*/
+    --btn-clr1:#0866ff;
+    --btn-clr2:#42b72a;
+
+    --hover-clr1:white;
+/*--------------------------COLORS ------------------------*/
     --backg-width:80vw;
     --h1-size:50px;
     --p-size:20px;
@@ -89,15 +93,15 @@ ul li a:hover{
 }
 #login{
     color: white;
-    background: red;
+    background: var(--btn-clr2);
     padding: 12px 18px;
     border-radius: 10px;
     margin-left: 20px;
     transition: .3s;
 }
 #login:hover{
-    color: black;
-    background: white;
+    color: var(--hover-clr1);
+    background: black;
 }
 /*---------------------------------HERO------------------------------*/
 .hero{
@@ -227,22 +231,19 @@ ul li a:hover{
 }
 .section-2-content p{
     font-size: var(--p-size);
-    margin-bottom: 5%;
+    margin-bottom: 6%;
 }
 #section-2-btn{
     text-decoration: none;
     padding: 10px 15px;
-    background-color: red;
+    background-color: var(--btn-clr1);
     color: white;
     border-radius: 5px;
-     border: 2px solid black;
+    border: 2px solid black;
     transition: .3s;
 }
 #section-2-btn:hover{
-    color: black;
-    background: white;
-    box-shadow: 0 0 5px white;
-     border: 2px solid white;
+    color: rgb(255, 255, 255);
 }
 
 /*-------------------------------------DISCORD------------------------------------*/
