@@ -10,7 +10,7 @@
     --nav-background:white;
     --a-color:#000;
     --btn-clr1:#1da9ad;
-    --btn-clr2:#0866ff;
+    --btn-clr2:#1da9ad;
 
     --hover-clr1:white;
 /*--------------------------COLORS ------------------------*/
@@ -92,15 +92,16 @@ ul li a:hover{
 }
 #login{
     color: white;
-    background: var(--btn-clr2);
+    background: #22d8df;
     padding: 12px 18px;
-    border-radius: 10px;
     margin-left: 20px;
     transition: .3s;
+    border: 1px solid #1da9ad;
+    border-radius: 4px;
 }
 #login:hover{
     color: var(--hover-clr1);
-    background: black;
+    background: #1da9ad;
 }
 /*---------------------------------HERO------------------------------*/
 .hero{
@@ -128,7 +129,7 @@ ul li a:hover{
     font-size: var(--h1-size);
 }
 
-span{
+.hero span{
     color: orangered;
 }
 .hero-img{
@@ -222,6 +223,7 @@ span{
 }
 #section-2-btn:hover{
     color: rgb(255, 255, 255);
+    background-color: #22d8df;
 }
 
 /*-------------------------------------DISCORD------------------------------------*/
@@ -266,6 +268,7 @@ span{
     border: 1px solid rgb(104, 103, 109);
 }
 #section-3-btn:hover{
+    background-color: #22d8df;
     color: white;
 }
 
@@ -311,15 +314,15 @@ span{
 }
 #section-4-btn{
     text-decoration: none;
-    padding: 10px 15px;
-    border: 2px solid black;
+    padding: 15px 15px;
+    border: 1px solid rgb(110, 109, 109);
     color: white;
     background-color: var(--btn-clr1);
     transition: .3s;
-    border-radius: 5px;
 }
 #section-4-btn:hover{
     color: white;
+    background-color: #22d8df;
 }
 /*-----------------------------OUR TEAM--------------------------------------------*/
 .our-team{
