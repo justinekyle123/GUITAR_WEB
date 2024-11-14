@@ -136,6 +136,7 @@ ul li a:hover{
     margin-left: 7%;
     backdrop-filter: blur(3px);
     padding: 10px;
+    margin: auto;
 }
 .hero-content h1{
     font-size: var(--h1-size);
@@ -147,8 +148,9 @@ ul li a:hover{
 }
 
 .hero span{
-    color: orangered;
+    color: rgb(253, 0, 0);
     font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .hero a{
     background-color: #d3254a;
