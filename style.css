@@ -9,7 +9,7 @@
     --section-backg: #f8f9fa;
     --nav-background:white;
     --a-color:#000;
-    --btn-clr1:#0866ff;
+    --btn-clr1:#1da9ad;
     --btn-clr2:#0866ff;
 
     --hover-clr1:white;
@@ -214,12 +214,11 @@ span{
 }
 #section-2-btn{
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 15px 15px;
     background-color: var(--btn-clr1);
     color: white;
-    border-radius: 5px;
-    border: 2px solid black;
     transition: .3s;
+    border: 1px solid #918e8e;
 }
 #section-2-btn:hover{
     color: rgb(255, 255, 255);
@@ -260,12 +259,11 @@ span{
 }
 #section-3-btn{
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 15px 15px;
     color: white;
     background-color:var(--btn-clr1);
-    border-radius: 5px;
     transition: .3s;
-    border: 2px solid black;
+    border: 1px solid rgb(104, 103, 109);
 }
 #section-3-btn:hover{
     color: white;
@@ -394,6 +392,7 @@ span{
     gap:5em;
     color: white;
     position: relative;
+    font-size: 20px;
 }
 .contact-section img{
     width: 100vw;
@@ -405,7 +404,7 @@ span{
 .contact-info{
     color: white;
     line-height: 50px;
-    font-size: 18px;
+    font-size: 16px;
     max-width: 500px;
 }
 .contact-info i {
