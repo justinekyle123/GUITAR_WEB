@@ -389,6 +389,13 @@ ul li a:hover{
     border-radius: 5px;
     box-shadow: 0 2px 5px black;
     background-color: white;
+    cursor: pointer;
+    transition: .4s;
+}
+.team .team-member:hover{
+    background-color: #22d8df;
+    color: white;
+    transform: translateY(-12px);
 }
 .team .team-member h3{
     margin-top: 20%;
