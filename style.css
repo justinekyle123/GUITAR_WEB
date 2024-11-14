@@ -88,7 +88,7 @@ ul li a{
     transition: .3s;
 }
 ul li a:hover{
-    color: red;
+    color: #1da9ad;
 }
 #login{
     color: white;
@@ -120,6 +120,7 @@ ul li a:hover{
 .hero-content{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1em;
     text-align: center;
     max-width: 40vw;
@@ -132,9 +133,24 @@ ul li a:hover{
 .hero span{
     color: orangered;
 }
+.hero a{
+    background-color: #d3254a;
+    padding: 15px 25px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 5%;
+    transition: .3s;
+    border: 1px solid #333;
+}
+.hero a:hover{
+    background-color: transparent;
+    border: 1px solid #333;
+    color: black;
+}
 .hero-img{
     background-color: rgb(95, 61, 61);
-    width: 45%;
+    width: 50%;
     height: 100vh;
     display: flex;
     justify-content: center;
