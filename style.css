@@ -299,10 +299,9 @@ ul li a:hover{
 
 .section3-container img{
     width: var(--img-wdth);
-    height: 70vh;
+    height: 60vh;
     background-color: white;
     filter: grayscale(50%);
-    border-radius: 2px;
     object-fit: cover;
 }
 /*------------------------------------------SECTION 4--------------------------------*/
@@ -320,7 +319,7 @@ ul li a:hover{
 }
 .section4-container video{
     width:var(--img-wdth);
-    aspect-ratio:16/11;
+    aspect-ratio: 16/9;
     background-color: white;
 }
 
