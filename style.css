@@ -16,7 +16,7 @@
 /*--------------------------COLORS ------------------------*/
     --backg-width:80vw;
     --h1-size:50px;
-    --p-size:16px;
+    --p-size:20px;
     --h2-size:22px;
     --h3-size:18px;
     --border-top:2px solid ;
@@ -30,7 +30,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: verdana;
+    font-family: sans-serif;
 }
 
 body{
@@ -269,7 +269,7 @@ ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2em;
+    gap: 5em;
     padding: 10px 42px;
 }
 .section3-content{
@@ -317,7 +317,7 @@ ul li a:hover{
     justify-content: center;
     align-items: center;
     margin: auto;
-    gap: 2em;
+    gap: 5em;
      border-radius: 20px;
     padding: 10px 42px;
 }
