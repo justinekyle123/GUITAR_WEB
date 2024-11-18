@@ -17,7 +17,7 @@
     --backg-width:80vw;
     --h1-size:50px;
     --p-size:20px;
-    --h2-size:22px;
+    --h2-size:30px;
     --h3-size:18px;
     --border-top:2px solid ;
     --img-wdth:40vw;
@@ -216,6 +216,7 @@ ul li a:hover{
     gap: 2em;
     padding: 10px 42px;
     position: relative;
+    border-bottom: 1px solid #999;
 }
 .section-2-container img{
     width: var(--img-wdth);
@@ -231,7 +232,7 @@ ul li a:hover{
     margin-bottom: 5%;
     color: var(--h2-clr);
     padding-bottom: 12px;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #999;
 }
 .section-2-content p{
     font-size: var(--p-size);
@@ -271,6 +272,7 @@ ul li a:hover{
     align-items: center;
     gap: 5em;
     padding: 10px 42px;
+        border-bottom: 1px solid #999;
 }
 .section3-content{
     width: 45vw;
@@ -280,7 +282,7 @@ ul li a:hover{
     margin-bottom: 4%;
     color: var(--h2-clr);
     padding-bottom: 15px;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #999;
 }
 .section3-content p{
     color: var(--p-clr);
@@ -336,7 +338,7 @@ ul li a:hover{
     margin-bottom: 3%;
     color: var(--h2-clr);
     padding-bottom: 12px;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #999;
 }
 .section4-content p{
     color: var(--p-clr);
