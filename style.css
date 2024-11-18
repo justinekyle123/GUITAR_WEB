@@ -208,7 +208,7 @@ ul li a:hover{
 .section-2{
     width: var(--backg-width);
     margin: auto;
-    height: 80vh;
+    height: 100vh;
     background-color: var(--section-backg);
     display: flex;
     justify-content: center;
@@ -264,7 +264,7 @@ ul li a:hover{
 .section-3{
     width: var(--backg-width);
     margin: auto;
-    height: 80vh;
+    height: 100vh;
     background: var(--section-backg);
     display: flex;
     justify-content: center;
@@ -311,7 +311,7 @@ ul li a:hover{
 /*------------------------------------------SECTION 4--------------------------------*/
 .section-4{
     width: var(--backg-width);
-    height: 80vh;
+    height: 100vh;
     background: var(--section-backg);
     display: flex;
     justify-content: center;
@@ -435,9 +435,14 @@ ul li a:hover{
     align-items: center;
     justify-content: center;
     gap:5em;
-    color: white;
+    color: black;
     position: relative;
-    font-size: 20px;
+}
+.contact-form h2{
+    font-size: 40px;
+    color: #000;
+    backdrop-filter:blur(3px);
+    padding: 10px;
 }
 .contact-section img{
     width: 100vw;
@@ -447,7 +452,7 @@ ul li a:hover{
     filter: grayscale(100%);
 }
 .contact-info{
-    color: white;
+    color: #000;
     line-height: 50px;
     font-size: 16px;
     max-width: 500px;
@@ -485,6 +490,7 @@ ul li a:hover{
     border: none;
     border-radius: 5px;
     background: black;
+    opacity: .9;
 }
 .contact-form form .submit{
     width: 100px;

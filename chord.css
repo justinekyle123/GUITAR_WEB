@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.header{
+	width: 100vw;
+	height: 30vh;
+	background: #BAD6F5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header h1{
+	font-size: 60px;
+}
+.hero{
+	width: 90vw;
+	height: 70vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	gap:8em;
+	border-bottom: 1px solid #9999;
+}
+.hero img{
+	width: 40vw;
+	aspect-ratio:16/9;
+}
+.hero-content{
+	max-width: 40vw;
+	line-height: 1.75;
+}
+.hero-content h2{
+	font-size: 28px;
+	margin-bottom: 4%
+}
+.hero-content p{
+	font-size: 20px;
+	color: #333;
+	margin-bottom: 5%;
+}
+#continue{
+	padding: 10px 20px;
+	background: #000;
+	border-radius: 30px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	transition: .3s;
+}
+#continue:hover{
+	opacity: .9;
+}
+
+/*-------------------------------------CHORDS------------------------------------------------*/
+
+.chords{
+	width: 100vw;
+	height: 90vh;
+	margin: auto;
+	margin-top: 5%;
+}
