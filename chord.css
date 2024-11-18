@@ -59,16 +59,16 @@
 
 .chords{
 	width: 90vw;
-	height: 90vh;
+	height: 100vh;
 	margin: auto;
 	margin-top: 5%;
 	display: flex;
 	flex-direction: column;
-	gap:1em;
+	gap:2em;
 }
 .chord-groups{
 	width: 100%;
-	height: 45vh;
+	height: 60vh;
 	display: flex;
 	justify-content: center;
 	gap:2em;
@@ -76,10 +76,19 @@
 .chord-groups .chord-container{
 	width: 25%;
 	height: 100%;
-	background: #333;
-
+	background: #fff;
+	border-radius: 5px;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+	box-shadow: 0 0 5px black;
+	text-align: center;
 }
-
+.chord-groups .chord-container img{
+	width: 100%;
+	height: 50%;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+}
 
 
 
