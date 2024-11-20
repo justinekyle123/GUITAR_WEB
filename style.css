@@ -151,24 +151,23 @@ ul li a:hover{
 }
 
 .hero span{
-    color: #1da9ad;
+    color: #2adce2;
     font-size: 60px;
 }
-.hero a{
-    background-color: #d3254a;
+#hero-btn{
     padding: 15px 25px;
-    color: white;
+    color: #1da9ad;
     font-size: 18px;
     text-decoration: none;
     margin-top: 5%;
     transition: .5s;
-    border: 1px solid #333;
+    border: 3px solid #1da9ad;
     width: 220px;
     text-align: center;
 }
-.hero a:hover{
+#hero-btn:hover{
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 3px solid #fff;
     color: #fff;
 }
 
