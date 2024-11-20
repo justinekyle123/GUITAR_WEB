@@ -2,13 +2,13 @@
 :root{
     --h1-clr:#fff;
     --background-clr:#eceff1;
-    --logo-clr:#000;
+    --logo-clr:#fff;
     --p-clr:#444;
     --h3-clr:black;
     --h2-clr:black;
     --section-backg: #eceff1;
     --nav-background:white;
-    --a-color:#000;
+    --a-color:#fff;
     --btn-clr1:#1da9ad;
     --btn-clr2:#1da9ad;
 
@@ -54,15 +54,15 @@ html{
 nav{
     width: 100vw;
     height: 80px;
-    background: var(--nav-background);
+    background: transparent;
+    backdrop-filter: blur(2px);
     box-shadow: 0 0 5px #000;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 7em;
-    position: fixed;
-    top: 0;
     z-index: 999;
+    border-bottom: 2px solid #555;
 }
 
 .logo{
@@ -110,47 +110,49 @@ ul li a:hover{
     background-size: cover;
     position: absolute;
     z-index: -1;
+    filter: grayscale(25%);
 }
 
 .hero{
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+    justify-content: left;
+    align-items: left;
     color: var(--h1-clr);
     text-align: center;
-    position: relative;
     gap: 1em;
+    position: relative;
 }
 
 .hero-content{
+    width: 100vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     gap: 1em;
-    text-align: center;
-    max-width: 70vw;
+    text-align: left;
+    max-width: 50vw;
     max-height: 60%;
-    margin-left: 7%;
-    backdrop-filter: blur(3px);
     padding: 10px;
     margin: auto;
+    position: absolute;
+    left: 10%;
+    top: 20%;
 }
 .hero-content h1{
     font-size: var(--h1-size);
     margin-bottom: 5%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .hero p{
     color: white;
+    font-weight: 600;
 }
 
 .hero span{
-    color: rgb(253, 0, 0);
+    color: #1da9ad;
     font-size: 60px;
-    font-family: 'Times New Roman', Times, serif;
 }
 .hero a{
     background-color: #d3254a;
@@ -161,6 +163,8 @@ ul li a:hover{
     margin-top: 5%;
     transition: .5s;
     border: 1px solid #333;
+    width: 220px;
+    text-align: center;
 }
 .hero a:hover{
     background-color: transparent;
@@ -168,6 +172,19 @@ ul li a:hover{
     color: #fff;
 }
 
+/*--------------------------------HERO IMAGE -----------------------------------*/
+.hero-img {
+    width:50%;
+    height: 75%;
+    z-index: -1;
+    right: 5%;
+    top: 5%;
+    position: absolute;
+}
+.hero-img img{
+    width: 100%;
+    height: 100%;
+}
 
 
 /*-------------------------------GET STARTED ------------------------------*/
