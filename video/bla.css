@@ -18,13 +18,25 @@ iframe{
 nav{
 	width: 100vw;
 	height: 80px;
-	background-color: #e6dfdf;
+	background-color: #fff;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	position: fixed;
 	top: 0;
+	box-shadow: 0 0 3px #333;
 }
+.header{
+	width: 100vw;
+	height: 120px;
+	background-color: #e0eaeb;
+	margin-top: 80px;
+	display: flex;
+	align-items: center;
+	justify-self:center;
+	font-size: 30px;
+}
+
 .logo{
 	font-size: 40px;
 	font-weight:600;
@@ -35,7 +47,6 @@ nav{
 	width: 80vw;
 	height: 80vh;
 	margin: auto;
-	margin-top: 80px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
