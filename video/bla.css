@@ -26,16 +26,7 @@ nav{
 	top: 0;
 	box-shadow: 0 0 3px #333;
 }
-.header{
-	width: 100vw;
-	height: 120px;
-	background-color: #e0eaeb;
-	margin-top: 80px;
-	display: flex;
-	align-items: center;
-	justify-self:center;
-	font-size: 30px;
-}
+
 
 .logo{
 	font-size: 40px;
@@ -51,6 +42,7 @@ nav{
 	align-items: center;
 	justify-content: center;
 	gap: 5em;
+	margin-top: 80px;
 }
 
 .video-container2{
