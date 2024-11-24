@@ -55,7 +55,9 @@ nav{
 	justify-content: center;
 	gap: 5em;
 }
-
+.video-text a{
+	color: blue;
+}
 .video-text{
 	max-width: 50%;
 	line-height: 1.75;
@@ -63,8 +65,10 @@ nav{
 .video-text h2{
 	font-size: var(--h2-size);
 	color: #222;
+	margin-bottom: 3%;
 }
 .video-text p{
 	color: #444;
 	font-size: var(--p-size);
+	margin-top: 5%;
 }
